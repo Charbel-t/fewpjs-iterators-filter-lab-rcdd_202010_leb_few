@@ -7,6 +7,6 @@ function findMatching(list,name){
 function fuzzyMatch(list, name){
   let l=name.length;
   return list.filter(function(drivername){
-    return drivername.slice(0,l)
+    return drivername.slice(0,l)===name
   })
 }

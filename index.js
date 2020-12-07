@@ -4,4 +4,4 @@ function findMatching(list,name){
     return drivername.toLowerCase()===name.toLowerCase()}));
 }
 
-function 
+function fuzzyMatch()

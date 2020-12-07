@@ -5,5 +5,5 @@ function findMatching(list,name){
 }
 
 function fuzzyMatch(list, name){
-  let l=
+  let l=name.length;
 }
